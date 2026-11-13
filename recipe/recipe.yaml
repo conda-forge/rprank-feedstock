@@ -1,6 +1,6 @@
 context:
   name: rprank
-  version: 0.0.2
+  version: 6.8.2
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/brsynth/rpRank/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 0f43504aee4b31a5fcccf1864ae9414561d4b9857d3328ccc54eb21941ea74a1
+  sha256: 820625bbd5237a827829c8212ea62d9e9f36b34e09044cc9d0064372a12be5de
 
 build:
   number: 0
@@ -45,3 +45,5 @@ about:
 extra:
   recipe-maintainers:
     - ramez17khaled
+    - breakthewall
+    - tduigou
